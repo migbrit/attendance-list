@@ -1,0 +1,46 @@
+.container h1 {
+  background-image: linear-gradient(to right, #7b1fa2, #4a00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  margin: 84px 0 24px;
+}
+
+.container input {
+  width: 50%;
+  padding: 24px;
+
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  border: none;
+
+  font-size: 16px;
+}
+
+.container button {
+  width: 50%;
+  padding: 24px;
+  font-weight: 700;
+
+  background: #7b1fa2;
+  transition: opacity 0.3s ease;
+  color: #ffffff;
+
+  border-radius: 5px;
+  margin: 12px 0 84px;
+  border: none;
+
+  cursor: pointer;
+}
+
+.container button:hover {
+  background: linear-gradient(to right, #7b1fa2, #4a00e0);
+  opacity: 0.8;
+}

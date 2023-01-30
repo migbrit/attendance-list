@@ -1,0 +1,15 @@
+.card {
+  height: 100%;
+  width: 50%;
+
+  color: #ffff;
+  background-color: #000000;
+
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+  padding: 24px;
+}
